@@ -129,11 +129,11 @@ Lalu follow tcp stream dan akan menampilkan seperti berikut:
 
 Melalui filter cari ftp 
 
-
+![gambar9.1](/img/9.1.png)
 
 Lalu cari username dan Password
 
-
+![gambar9.2](/img/9.2.png)
 
 #### Soal 10
 >Cari file .pdf di wireshark lalu download dan buka file tersebut!

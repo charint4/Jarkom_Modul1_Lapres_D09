@@ -48,7 +48,7 @@ cari paket yang FTP nya Post atau terdapat kata login, username dan password dap
 
 ![gambar3.2](/img/3.2.jpg)
 
-#### soal 4
+#### Soal 4
 > Temukan paket dari web-web yang menggunakan basic authentication method!
 
 Melalui filter ketik http.authbasic
@@ -60,9 +60,38 @@ Melalui filter ketik http.authbasic
 
 cari packet "aku.pengen.pw"
 
-![gambar5.1](/img/5.1jpg)
+![gambar5.1](/img/5.1.jpg)
 
 username dan password dapat dilihat di dropdown hypertext lalu authorization
 
-![gambar5.1](img?5.2.jpg)
+![gambar5.2](/img/5.2.jpg)
+
+pada "aku.pengen.pw" ditanyakan Urutan konfigurasi pengkabelan T568B
+
+![gambar5.3](/img/5.3.jpg)
+
+konfigurasi pengkabelan T568B adalah
+
+Putih orange, orange, putih hijau, biru, putih biru, hijau, putih coklat, coklat
+
+#### Soal 6
+>Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
+
+Mencari password zip melalui find packet, dan search "zipkey.txt" yang FTP-DATA
+
+![gambar6.1](/img/6.1.jpg)
+
+Follow tcp stream packet yang terfilter, password akan langsung ada dalam bentuk ascii
+
+![gambar6.2](/img/6.2.jpg)
+
+Setelah mengcopy pastekan password, cari file "answer.zip" yang FTP-DATA melauli find packet
+
+![gambar6.3](/img/6.3.jpg)
+
+Follow tcp stream juga, akan tetapi ubah dari ascii ke raw lalu save as "Answer.zip"
+
+![gambar6.4](/img/6.4.jpg)
+
+
 

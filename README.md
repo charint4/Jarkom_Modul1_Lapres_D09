@@ -192,7 +192,7 @@ cari ip wifi dengan menuliskan ipconfig pada command prompt
 
 Lalu tuliskkan src net ipaddress pada filter awal wireshark dan pilih wifi, maka akan tampil paketnya
 
-![gambar14.2](/img/14.1).jpg
+![gambar14.2](/img/14.1.jpg)
 
 
 #### Soal 15

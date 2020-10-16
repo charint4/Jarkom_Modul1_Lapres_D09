@@ -113,6 +113,26 @@ Berikut Tampilan File yang dicari :
 
 ![gambar7.3](/img/7.3.jpg)
 
+#### Soal 10
+>Cari file .pdf di wireshark lalu download dan buka file tersebut!
+clue: "25 50 44 46" 
+
+Melauli filter cari file pdf dengan frame contains"application/pdf"
+
+![gambar10.1](/img/10.1.jpg)
+
+Lalu Follow tcp stream paket, dan ubah dari ascii ke raw dan save as .pdf
+
+![gambar10.2](/img/10.2.jpg)
+
+Berikut tampilan file yang dimaksud soal :
+
+![gambar10.3](/img/10.3.jpg)
+
+#### Soal 11
+>Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+
 
 
 

@@ -42,7 +42,27 @@ berikut gambar yang dimaksud soal
 
 Melalui filter cari http.host == ppid.dpr.go.id
 
-![gambar3.1](/img/3.1jpg)
+![gambar3.1](/img/3.1.jpg)
 
 cari paket yang FTP nya Post atau terdapat kata login, username dan password dapat dilihat di kolom paling bawah dan baris paling bawah wireshark
+
 ![gambar3.2](/img/3.2.jpg)
+
+#### soal 4
+> Temukan paket dari web-web yang menggunakan basic authentication method!
+
+Melalui filter ketik http.authbasic
+
+![gambar4.1](/img/4.1.jpg)
+
+#### Soal 5
+> Ikuti perintah di "aku.pengen.pw"! Username dan password bisa didapatkan dari file .pcapng!
+
+cari packet "aku.pengen.pw"
+
+![gambar5.1](/img/5.1jpg)
+
+username dan password dapat dilihat di dropdown hypertext lalu authorization
+
+![gambar5.1](img?5.2.jpg)
+

@@ -158,8 +158,51 @@ Copy sebuah file pada kolom filezilla client ke kolom folder yang user punya
 
 ![gambar11.7](/img/11.6.jpg)
 
-Maka dapat diliha di wireshar terdapat packet yang dicapture
+Maka dapat dilihat di wireshark terdapat paket yang dicapture
 
-![gambar11.8](/img/11.8.jpg]
+![gambar11.8](/img/11.8.jpg)
+
+
+#### Soal 12
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+Tuliskan pada filter awal src port 80
+
+![gambar12.1](/img/12.1.jpg)
+
+buka website http pada browser, lalu lihat lagi wireshark maka akan tercapture website http yang diakses pada browser
+
+![gambar12.2](/img/12.2.jpg)
+
+
+#### Soal 13
+> Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Tuliskan pada filter awal dst port 443, Buka website https pada browser, maka pada wireshark akan muncul paket yang di akses di browser
+
+![gambar13.1](/img/13.1)
+
+
+#### Soal 14
+> Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+cari ip wifi dengan menuliskan ipconfig pada command prompt
+
+![gambar14.1](/img/14.1)
+
+Lalu tuliskkan src net ipaddress pada filter awal wireshark dan pilih wifi, maka akan tampil paketnya
+
+![gambar14.2](/img/14.1)
+
+
+#### Soal 15
+> Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+Pada wireshark ketikkan dst monta.if.its.ac.id di filter wifi, Lalu buka monta.if.its.ac.id pada browser maka dalam wireshark akan muncul paketnya
+
+![gambar15.1](/img/15.1jpg)
+
+
+
 
 

@@ -35,3 +35,14 @@ setelah dapat packetnya di export httpnya
 berikut gambar yang dimaksud soal
 
 ![gambar2.3](/img/2.3.jpg)
+
+
+#### Soal 3
+> Cari username dan password ketika login di "ppid.dpr.go.id"!
+
+Melalui filter cari http.host == ppid.dpr.go.id
+
+![gambar3.1](/img/3.1jpg)
+
+cari paket yang FTP nya Post atau terdapat kata login, username dan password dapat dilihat di kolom paling bawah dan baris paling bawah wireshark
+![gambar3.2](/img/3.2.jpg)

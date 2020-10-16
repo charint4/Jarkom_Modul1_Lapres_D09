@@ -180,7 +180,7 @@ buka website http pada browser, lalu lihat lagi wireshark maka akan tercapture w
 
 Tuliskan pada filter awal dst port 443, Buka website https pada browser, maka pada wireshark akan muncul paket yang di akses di browser
 
-![gambar13.1](/img/13.1)
+![gambar13.1](/img/13.1.jpg)
 
 
 #### Soal 14
@@ -188,11 +188,11 @@ Tuliskan pada filter awal dst port 443, Buka website https pada browser, maka pa
 
 cari ip wifi dengan menuliskan ipconfig pada command prompt
 
-![gambar14.1](/img/14.1)
+![gambar14.1](/img/14.1.jpg)
 
 Lalu tuliskkan src net ipaddress pada filter awal wireshark dan pilih wifi, maka akan tampil paketnya
 
-![gambar14.2](/img/14.1)
+![gambar14.2](/img/14.1).jpg
 
 
 #### Soal 15
@@ -200,9 +200,5 @@ Lalu tuliskkan src net ipaddress pada filter awal wireshark dan pilih wifi, maka
 
 Pada wireshark ketikkan dst monta.if.its.ac.id di filter wifi, Lalu buka monta.if.its.ac.id pada browser maka dalam wireshark akan muncul paketnya
 
-![gambar15.1](/img/15.1jpg)
-
-
-
-
+![gambar15.1](/img/15.1.jpg)
 

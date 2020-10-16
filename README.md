@@ -77,7 +77,7 @@ Putih orange, orange, putih hijau, biru, putih biru, hijau, putih coklat, coklat
 #### Soal 6
 >Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 
-Mencari password zip melalui find packet, dan search "zipkey.txt" yang FTP-DATA
+Mencari password zip melalui find packet, dan search "zipkey.txt" yang FTP DATA
 
 ![gambar6.1](/img/6.1.jpg)
 
@@ -85,13 +85,35 @@ Follow tcp stream packet yang terfilter, password akan langsung ada dalam bentuk
 
 ![gambar6.2](/img/6.2.jpg)
 
-Setelah mengcopy pastekan password, cari file "answer.zip" yang FTP-DATA melauli find packet
+Setelah mengcopy pastekan password, cari file "answer.zip" yang FTP DATA melauli find packet
 
 ![gambar6.3](/img/6.3.jpg)
 
 Follow tcp stream juga, akan tetapi ubah dari ascii ke raw lalu save as "Answer.zip"
 
 ![gambar6.4](/img/6.4.jpg)
+
+setelah dapat file dan passwordnya extract file, berikut tampilan file yang ada dalam "Answer.zip" :
+
+![gambar6.5](/img/6.5.jpg)
+
+#### Soal 7
+>Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
+Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+
+Mencari file pdf dengan filter frame contains "Yes.pdf", pilih yang FTP DATA 
+
+![gambar7.1](/img/7.1.jpg)
+
+Lalu follow tcp stream dan ubah ke raw
+
+![gambar7.2](/img/7.2.jpg)
+
+Berikut Tampilan File yang dicari :
+
+![gambar7.3](/img/7.3.jpg)
+
+
 
 
 

@@ -160,6 +160,6 @@ Copy sebuah file pada kolom filezilla client ke kolom folder yang user punya
 
 Maka dapat diliha di wireshar terdapat packet yang dicapture
 
-![gambar11.8](/img/11.7.jpg]
+![gambar11.8](/img/11.8.jpg]
 
 

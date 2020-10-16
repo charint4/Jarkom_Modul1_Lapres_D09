@@ -10,4 +10,4 @@ Kelompok D09
 
 Cari paket testing.mekanime.me dengan filter http.host == testing.mekanisme.me
 
-![1.1](/img/1.1png)
+![gambar1.1](/img/1.1.jpg)

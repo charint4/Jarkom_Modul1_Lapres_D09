@@ -113,6 +113,28 @@ Berikut Tampilan File yang dicari :
 
 ![gambar7.3](/img/7.3.jpg)
 
+#### Soal 8
+>Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+
+Melalui filter cari ftp.request.command==RETR
+
+![gambar8.1](/img/8.1.png)
+
+Lalu follow tcp stream dan akan menampilkan seperti berikut:
+
+![gambar8.2](/img/8.2.png)
+
+#### Soal 9
+>Cari username dan password ketika login FTP pada localhost!
+
+Melalui filter cari ftp 
+
+
+
+Lalu cari username dan Password
+
+
+
 #### Soal 10
 >Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46" 

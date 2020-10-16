@@ -133,7 +133,33 @@ Berikut tampilan file yang dimaksud soal :
 >Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 
+Buka Filezilla clien dan server
+
+![gambar11.1](/img/11.1.jpg)
+
+![gambbar11,2](/img/11.2.jpg)
+
+Add user di filezilla server dan tambahkan sebuah folder pada usernya
+
+![gambar11.3](/img/11.3.jpg)
+
+![gambar11.4](/img/11.4.jpg)
 
 
+Lalu dengan host dan user yang sudah dibuat di server masukkan dalam filezilla client
+
+![gambar11.5](/img/11.4.jpg)
+
+Buka wireshark lalu pilih Adapter for loopback traffic capture dan pada filter ketikkan port 21
+
+![gambar11.6](/img/11.5.jpg)
+
+Copy sebuah file pada kolom filezilla client ke kolom folder yang user punya
+
+![gambar11.7](/img/11.6.jpg)
+
+Maka dapat diliha di wireshar terdapat packet yang dicapture
+
+![gambar11.8](/img/11.7.jpg]
 
 
